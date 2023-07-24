@@ -5,7 +5,6 @@ export default function homepage() {
         <>
 
             <h1>Welcome to </h1>
-            <br />
             <h1>home Page</h1>
 
         </>

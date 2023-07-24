@@ -2,3 +2,30 @@ h1{
   display: flex;
   justify-content: center;
 }
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 10px solid black;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 30px ;
+}
+
+
+button{
+  font-size: 15px;
+}
+button:hover{
+  font-size: 18px;
+}
