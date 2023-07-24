@@ -1,6 +1,12 @@
 import React from 'react'
 
 export default function register() {
+
+   
+
+    let onchange = ()=>{
+
+    }
     return (
         <>
             <h1>Register page</h1>
@@ -9,10 +15,10 @@ export default function register() {
             <div className="box">
 
                 <form action="">
-                    <input type="text" placeholder='Enter name' />
-                    <input type="text" placeholder='Enter emailId' />
-                    <input type="text" placeholder='Enter password' />
-                    <input type="text" placeholder='Enter Repassword' />
+                    <input name = {User.name} onChange={onchange} type="text" placeholder='Enter name' />
+                    <input  name = {User.name} onChange={onchange}type="text" placeholder='Enter emailId' />
+                    <input name = {User.name} onChange={onchange} type="text" placeholder='Enter password' />
+                    <input  name = {User.name} onChange={onchange}type="text" placeholder='Enter Repassword' />
 
                     <button type='submit'>Register</button>
                     <div>or</div>
