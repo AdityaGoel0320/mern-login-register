@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function register() {
   return (
-    <div>register</div>
+    <>
+    <h1>Register page</h1>
+    </>
   )
 }
