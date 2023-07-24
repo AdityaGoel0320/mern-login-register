@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function register() {
-
+    
     let x = {
         name: "",
         email: "",
@@ -13,7 +13,9 @@ export default function register() {
     let onchange = () => {
 
     }
+
     return (
+        
         <>
             <h1>Register page</h1>
 
