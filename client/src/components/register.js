@@ -1,16 +1,16 @@
-import React  , {useState} from 'react'
+import React, { useState } from 'react'
 
 export default function register() {
 
-   
-    const [obj, setobj] = useState({
-        name : "" , 
-        email:""  , 
-        password : "" , 
-        reEnterPassword : ""
-    }) ; 
+    let x = {
+        name: "",
+        email: "",
+        password: "",
+        reEnterPassword: ""
+    }
+    const [obj, setobj] = useState(x);
 
-    let onchange = ()=>{
+    let onchange = () => {
 
     }
     return (
@@ -21,10 +21,10 @@ export default function register() {
             <div className="box">
 
                 <form action="">
-                    <input name = {obj.name} onChange={onchange} type="text" placeholder='Enter name' />
-                    <input  name = {obj.email} onChange={onchange}type="text" placeholder='Enter emailId' />
-                    <input name = {obj.password} onChange={onchange} type="text" placeholder='Enter password' />
-                    <input  name = {obj.reEnterPassword} onChange={onchange}type="text" placeholder='Enter Repassword' />
+                    <input name={obj.name} onChange={onchange} type="text" placeholder='Enter name' />
+                    <input name={obj.email} onChange={onchange} type="text" placeholder='Enter emailId' />
+                    <input name={obj.password} onChange={onchange} type="text" placeholder='Enter password' />
+                    <input name={obj.reEnterPassword} onChange={onchange} type="text" placeholder='Enter Repassword' />
 
                     <button type='submit'>Register</button>
                     <div>or</div>
